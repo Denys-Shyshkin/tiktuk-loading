@@ -1,9 +1,13 @@
 {
   "name": "tiktuk-loading",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Skeletons for tiktuk:) app",
   "main": "./lib/index.js",
   "types": "./lib/index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Denys-Shyshkin/tiktuk-loading"
+  },
   "scripts": {
     "build": "tsc"
   },
