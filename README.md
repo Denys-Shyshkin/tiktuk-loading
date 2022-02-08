@@ -3,6 +3,9 @@
 This package is a part of Homework for [Genesis](https://gen.tech) Front-End School.
 It includes a set of two configurable skeleton components.
 
+![Feb-08-2022 12-33-37](https://user-images.githubusercontent.com/74503981/152970295-c358130e-27c3-4aa7-94ce-d2c24f0b18ea.gif)
+
+
 ## Important note
 
 This npm package is created for homework project app ([tiktuk](https://github.com/Denys-Shyshkin/HomeWork)) use only.
