@@ -6,11 +6,15 @@ import { StyledGridContainer } from "./styles";
 
 type Props = {
   postsPerPage: number;
-  mediaQuery: string;
-  videoHeight: number;
+  mediaQuery?: string;
+  videoHeight?: number;
 };
 
-const SkeletonFeedList = ({ postsPerPage, mediaQuery, videoHeight }: Props) => {
+const SkeletonFeedList = ({
+  postsPerPage,
+  mediaQuery = "(max-width:600px)",
+  videoHeight = 400,
+}: Props) => {
   const matches = useMediaQuery(mediaQuery);
 
   const skeletonArray = Array(postsPerPage).fill(
