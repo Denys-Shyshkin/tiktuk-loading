@@ -1,5 +1,5 @@
 {
-  "name": "@tiktuk/skeleton-loading",
+  "name": "tiktuk-skeleton-loading",
   "version": "1.0.0",
   "description": "Skeletons for tiktuk:) app",
   "main": "./lib/index.js",
